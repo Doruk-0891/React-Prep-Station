@@ -1,0 +1,60 @@
+.success {
+    background-color: rgb(103, 211, 150);
+    color: white;
+
+}
+
+.info {
+    background-color: rgb(157, 203, 252);
+    color: white;
+
+}
+
+.warning {
+    background-color: rgb(228, 228, 68);
+    color: #333;
+}
+
+.error {
+    background-color: tomato;
+    color: white;
+}
+
+.none {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.toast-container {
+    width: 300px;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    gap: 10px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    /* position: absolute;
+    top: 20px;
+    right: 20px; */
+}
+
+.toast-button {
+    border: 1px solid #ddd;
+    outline: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+.toast-button:hover {
+    background-color: #ccc;
+}
