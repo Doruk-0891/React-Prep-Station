@@ -1,0 +1,33 @@
+.stepper-box {
+    position: relative;
+    /* width: 2.5rem; */
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.stepper-index {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #ddd;
+    color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 2px;
+    background-color: #ddd;
+    height: 2.5rem;
+    transform: translateX(1.20rem);
+}
+
+.active {
+    background-color: rgb(30, 127, 255);
+    color: #fff;
+}
