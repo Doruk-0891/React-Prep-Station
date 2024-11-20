@@ -1,0 +1,12 @@
+.folder-header {
+    display: flex;
+    gap: 20px;
+}
+
+.folder-btn > button {
+    margin-left: 10px;
+}
+
+.folder-body {
+    margin-left: 2rem;
+}
