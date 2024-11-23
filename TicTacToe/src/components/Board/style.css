@@ -1,0 +1,15 @@
+.board-container {
+    width: calc(6rem * var(--cols, 3));
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 3), 6rem);
+    grid-template-rows: repeat(var(--cols, 3), 6rem);
+}
+
+.board-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
